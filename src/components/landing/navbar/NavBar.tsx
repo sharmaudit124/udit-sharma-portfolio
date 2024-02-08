@@ -1,4 +1,3 @@
-import React from 'react'
 import { ThemeToggler } from '../../ThemeToggler'
 import Logo from '../logo/Logo'
 
