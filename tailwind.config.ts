@@ -70,11 +70,19 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        glow: {
+          '0%, 100%': { boxShadow: '0 0 0 0 rgba(72, 187, 120, 0.4)' },
+          '50%': { boxShadow: '0 0 10px 5px rgba(72, 187, 120, 0.4)' },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        glow: 'glow 1s ease-in-out infinite',
       },
+      backgroundImage: {
+        hero: 'url(/pic-lob.svg)'
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
