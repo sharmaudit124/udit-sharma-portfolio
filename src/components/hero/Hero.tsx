@@ -11,9 +11,10 @@ function Hero() {
                     <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left select-none">
                         <div className="text-sm uppercase font-semibold mb-4 tracking-[4px]">Full Stack Developer</div>
                         <h1 className=" mb-4 text-6xl xl:text-7xl xl:leading-80 tracking-tighter font-bold">
-                            Hey, Udit is here!</h1>
-                        <p className="text-muted-foreground text-lg mb-8 font-light max-w-[490px] mx-auto xl:mx-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                            Beatae vitae quo placeat ex qui cumqueBeatae vitae quo placeat ex qui cumqueBeatae vitae quo placeat ex qui cumqueBeatae vitae quo placeat ex qui cumque
+                            Hey there! Udit here! Let's craft together!👋</h1>
+                        <p className="text-muted-foreground text-lg mb-8 font-light max-w-[490px] mx-auto xl:mx-0">
+                            Where innovation meets execution. Elevate your digital presence with expertly crafted solutions spanning frontend and backend development.
+                            Plus, leverage our freelance expertise and captivating content creation to bring your vision to life
                         </p>
                         <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-6">
                             <Button variant={"outline"}>
