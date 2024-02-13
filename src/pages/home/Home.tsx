@@ -19,7 +19,7 @@ function Home() {
                 Where innovation meets execution. Elevate your digital presence with expertly crafted solutions spanning frontend and backend development.
                 Plus, leverage our freelance expertise and captivating content creation to bring your vision to life
             </p>
-            <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto lg:mx-0 mb-6">
+            <div className="flex flex-col gap-y-3 lg:flex-row gap-x-3 mb-6">
                 <Button variant={"outline"} onClick={(e) => {
                     window.location.href = MAIL_TO;
                     e.preventDefault();
@@ -30,7 +30,7 @@ function Home() {
                     <ExternalLink className="mr-2 h-4 w-4" />
                     Resume</Button>
             </div>
-            <Socials containerStyles="flex gap-x-6 mx-auto lg:mx-0"
+            <Socials containerStyles="flex gap-x-6 items-center justify-center lg:justify-start"
                 iconStyles="rounded-lg p-1.5 text-gray-700 dark:text-gray-100 transition-colors duration-200 hover:bg-gray-100 focus:outline-none dark:hover:bg-gray-700 mb-2" />
 
             <div className="text-green-900 dark:text-green-400 flex items-center justify-center lg:justify-start">

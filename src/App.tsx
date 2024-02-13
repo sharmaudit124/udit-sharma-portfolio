@@ -26,7 +26,7 @@ function App() {
               <div>
                 <NavBar toggleSideBar={toggleSideBar} />
               </div>
-              {isSideBarOpen && <SideBar />}
+              {isSideBarOpen && <SideBar toggleSideBar={toggleSideBar} />}
               <div className={isSideBarOpen ? 'ml-14' : ''}>
                 <section className="py-10 xl:py-24 xl:pt-24">
                   <Routes>
