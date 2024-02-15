@@ -8,6 +8,11 @@ import { TooltipProvider } from "@/components/ui/tooltip"
 import Hero from './components/hero/Hero'
 import Home from './pages/home/Home';
 import About from './pages/about/About';
+import Work from './pages/work/Work';
+import { NotFound } from './pages/not-found/NotFound';
+import Skills from './pages/skills/Skills';
+import Projects from './pages/projects/Projects';
+import Appointment from './pages/appointment/Appointment';
 
 
 function App() {
@@ -28,10 +33,15 @@ function App() {
               </div>
               {isSideBarOpen && <SideBar toggleSideBar={toggleSideBar} />}
               <div className={isSideBarOpen ? 'ml-14' : ''}>
-                <section className="py-10 xl:py-24 xl:pt-24">
+                <section className="py-10 lg:py-24 ll:pt-24">
                   <Routes>
                     <Route path="/" element={<Hero childComponent={<Home />} />} />
                     <Route path="/about" element={<Hero childComponent={<About />} />} />
+                    <Route path="/experience" element={<Hero childComponent={<Work />} />} />
+                    <Route path='/skills' element={<Skills />} />
+                    <Route path='/projects' element={<Projects />} />
+                    <Route path='/appoint' element={<Hero childComponent={<Appointment />} />} />
+                    <Route path='*' element={<NotFound />} />
                   </Routes>
                 </section>
               </div>

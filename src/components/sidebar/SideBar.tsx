@@ -1,6 +1,7 @@
-import { Briefcase, Home, Layers, Lightbulb, Phone, User } from 'lucide-react';
+import { Briefcase, CalendarCheck2, Home, Layers, Lightbulb, User } from 'lucide-react';
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip"
 import { Link } from 'react-router-dom';
+
 
 export function SideBar({ toggleSideBar }: { toggleSideBar: () => void }) {
     return (
@@ -60,14 +61,14 @@ export function SideBar({ toggleSideBar }: { toggleSideBar: () => void }) {
 
                 <Tooltip>
                     <TooltipTrigger asChild>
-                        <Link to="/contact">
+                        <Link to="/appoint">
                             <button onClick={toggleSideBar} className="rounded-lg p-1.5 text-gray-700 transition-colors duration-200 hover:bg-gray-100 focus:outline-none dark:hover:bg-gray-700">
-                                <Phone size={24} className="dark:text-neutral-100" />
+                                <CalendarCheck2 size={24} className="dark:text-neutral-100" />
                             </button>
                         </Link>
                     </TooltipTrigger>
                     <TooltipContent side='right'>
-                        <p>Contact</p>
+                        <p>Book an Appointment</p>
                     </TooltipContent>
                 </Tooltip>
 
