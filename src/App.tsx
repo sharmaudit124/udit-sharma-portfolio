@@ -41,7 +41,7 @@ function App() {
                     <Route path='/skills' element={<Skills />} />
                     <Route path='/projects' element={<Projects />} />
                     <Route path='/appoint' element={<Hero childComponent={<Appointment />} />} />
-                    <Route path='/notFound' element={<NotFound />} />
+                    <Route path='*' element={<NotFound />} />
                   </Routes>
                 </section>
               </div>
