@@ -13,6 +13,7 @@ import { NotFound } from './pages/not-found/NotFound';
 import Skills from './pages/skills/Skills';
 import Projects from './pages/projects/Projects';
 import Appointment from './pages/appointment/Appointment';
+import Loader from './pages/loader/Loader';
 
 
 function App() {
@@ -28,11 +29,12 @@ function App() {
         <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
           <TooltipProvider>
             <div className="flex flex-col h-screen bg-white [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#63e_100%)] dark:bg-[radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]">
+              <Loader />
               <div>
                 <NavBar toggleSideBar={toggleSideBar} />
               </div>
               {isSideBarOpen && <SideBar toggleSideBar={toggleSideBar} />}
-              <div className={isSideBarOpen ? 'ml-14 grow relative overflow-auto' : 'grow relative overflow-auto'}>
+              <div className={isSideBarOpen ? 'ml-14 overflow-y-auto no-scrollbar' : ' overflow-y-auto no-scrollbar'}>
                 <section className="py-10 lg:py-24 lg:pt-24">
                   <Routes>
                     <Route path="/" element={<Hero childComponent={<Home />} />} />

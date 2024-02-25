@@ -11,7 +11,7 @@ function Work() {
     const data = WORK_EXPERIENCE;
     return (
         <div className="mx-auto -m-24 p-6 lg:p-12">
-            <Accordion type="multiple" className="w-full" defaultValue={["item-1", "item-2", "item-3"]}>
+            <Accordion type="multiple" className="w-full" defaultValue={["item-1"]}>
                 <AccordionItem value="item-1" defaultValue="item-1">
                     <AccordionTrigger>Engineer - @Nagarro</AccordionTrigger>
                     <AccordionContent>

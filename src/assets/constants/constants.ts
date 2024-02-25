@@ -4,3 +4,4 @@ export const GITHUB_URL = "https://github.com/sharmaudit124";
 export const LINKEDIN_URL = "https://www.linkedin.com/in/sharmaudit124";
 export const INSTA_URL = "https://www.instagram.com/sharmaudit124/";
 export const TWITTER_URL = "https://twitter.com/sharmaudit124";
+export const LOADING_TIME=2000;
