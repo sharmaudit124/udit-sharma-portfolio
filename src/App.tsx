@@ -33,11 +33,11 @@ function App() {
               </div>
               {isSideBarOpen && <SideBar toggleSideBar={toggleSideBar} />}
               <div className={isSideBarOpen ? 'ml-14' : ''}>
-                <section className="py-10 lg:py-24 ll:pt-24">
+                <section className="py-10 lg:py-24 lg:pt-24">
                   <Routes>
                     <Route path="/" element={<Hero childComponent={<Home />} />} />
                     <Route path="/about" element={<Hero childComponent={<About />} />} />
-                    <Route path="/experience" element={<Hero childComponent={<Work />} />} />
+                    <Route path="/experience" element={<Work />} />
                     <Route path='/skills' element={<Skills />} />
                     <Route path='/projects' element={<Projects />} />
                     <Route path='/appoint' element={<Hero childComponent={<Appointment />} />} />
