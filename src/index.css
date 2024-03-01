@@ -87,7 +87,7 @@
     @apply bg-background text-foreground;
   }
 
-  @media (min-width: 1025px) {
+  @media (min-width: 1440px) {
     body {
       zoom: 110%;
     }
