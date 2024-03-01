@@ -86,6 +86,12 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  @media (min-width: 1025px) {
+    body {
+      zoom: 110%;
+    }
+  }
 }
 
 @layer utilities {
