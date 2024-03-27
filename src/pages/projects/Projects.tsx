@@ -4,7 +4,7 @@ function Projects() {
             <div className="-my-6">
                 <div className="mx-auto px-6 max-w-6xl text-gray-500">
                     <div className="text-center">
-                        <h2 className="text-6xl text-gray-950 dark:text-white font-semibold">Projects</h2>
+                        <h2 className="text-6xl text-gray-950 dark:text-white font-semibold font-logo">Projects</h2>
                     </div>
                     <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
                         <div className="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900">
@@ -68,7 +68,7 @@ function Projects() {
 
                                 <div className="mt-6 pb-6 rounded-b-[--card-border-radius]">
                                     <h1>Prototype Application</h1>
-                                    <p className="text-gray-700 dark:text-gray-300">a user-friendly prototype application that utilizes historical data ratios to predict future trends, structured akin to Excel sheets. It offers a streamlined approach to data forecasting.</p>
+                                    <p className="text-gray-700 dark:text-gray-300">A user-friendly prototype application that utilizes historical data ratios to predict future trends, structured akin to Excel sheets. It offers a streamlined approach to data forecasting.</p>
                                 </div>
                                 <div className="flex gap-3 -mb-8 py-4 border-t border-gray-200 dark:border-gray-800">
 

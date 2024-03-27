@@ -16,8 +16,9 @@ function Home() {
             <h1 className=" mb-4 text-6xl xl:text-7xl xl:leading-80 tracking-tighter font-bold">
                 Hey! Udit here!👋</h1>
             <p className="text-muted-foreground text-lg mb-8 font-light max-w-[490px] mx-auto xl:mx-0">
-                Where innovation meets execution. Elevate your digital presence with expertly crafted solutions spanning frontend and backend development.
-                Plus, leverage our freelance expertise and captivating content creation to bring your vision to life
+            Empowering digital journeys as a full-stack developer, freelance enthusiast,
+             and content creator. Crafting code, shaping experiences, and sharing insights 
+            – bridging innovation with imagination to redefine possibilities.
             </p>
             <div className="flex flex-col gap-y-3 lg:flex-row gap-x-3 mb-6">
                 <Button variant={"outline"} onClick={(e) => {
